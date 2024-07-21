@@ -1,0 +1,49 @@
+Command for run the project on Vs Code for Flask Server : 
+(Diabetes Prediction)
+
+Step -1 :
+On VS Code Open both terminal 
+1. For Backend 
+2. For Frontend 
+
+Step -2 :
+in Bakend Terminal run the :  python app. py
+aftter this run we show some runnig status 
+Like this 
+(INFO:werkzeug:Press CTRL+C to quit
+INFO:werkzeug: * Restarting with stat
+INFO:root:Loading the model...
+INFO:root:Model loaded successfully
+INFO:root:Starting the Flask app...
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 974-645-120
+INFO:werkzeug:127.0.0.1 - - [16/Jul/2024 01:00:11] "OPTIONS /predict HTTP/1.1" 200 -
+INFO:root:Received prediction request
+DEBUG:root:Request data: {'age': 52, 'glucose': 148, 'bloodPressure': 72, 'insulin': 0, 'bmi': 48, 'diabetesPedigree': 229.3}
+e:\Data Science Projects\Daibetes_prediction\Backend\venv\Lib\site-packages\sklearn\base.py:493: UserWarning: X does not have valid feature names, but RandomForestClassifier was fitted with feature names
+  warnings.warn(
+INFO:root:Prediction successful
+INFO:werkzeug:127.0.0.1 - - [16/Jul/2024 01:00:11] "POST /predict HTTP/1.1" 200 -)
+
+step 3 :
+in Frontend terminal  run the : python -m http.server 8001
+(it's load the objects and which is show in terminal )
+Like this 
+(Serving HTTP on :: port 8001 (http://[::]:8001/) ...
+::1 - - [16/Jul/2024 00:58:14] "GET /diabets.html HTTP/1.1" 200 -
+::1 - - [16/Jul/2024 00:58:14] "GET /style.css HTTP/1.1" 200 -
+::1 - - [16/Jul/2024 00:58:14] "GET /Opretions.js HTTP/1.1" 200 -
+::1 - - [16/Jul/2024 00:58:15] "GET /img/img-10.jpg HTTP/1.1" 200 -
+::1 - - [16/Jul/2024 00:58:15] code 404, message File not found
+::1 - - [16/Jul/2024 00:58:15] "GET /favicon.ico HTTP/1.1" 404 -
+::1 - - [16/Jul/2024 00:58:20] "GET /img/im-9.jpg HTTP/1.1" 200 -
+::1 - - [16/Jul/2024 00:58:25] "GET /img/img-7.jpg HTTP/1.1" 200 -
+::1 - - [16/Jul/2024 00:59:08] "GET /diabets.html HTTP/1.1" 304 -
+::1 - - [16/Jul/2024 00:59:18] "GET /img/img-7.jpg HTTP/1.1" 200 -)
+
+after that go the  chrome browser 
+write this adress in the adress bar :
+http://localhost:8001/diabets.html 
+
+check in network tab using F12 
+file or loded or not .
