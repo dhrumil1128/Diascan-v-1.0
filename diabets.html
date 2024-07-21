@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    
+    <!--Tittle Section-->
+    
+    <header class = "title-section">
+        <div class = "container text-center">
+            <h1 class = "display-4">Diabetes Prediction</h1>
+            <div class = "blinking-title">
+                <p class = "lead">“Your journey to diabetes prevention starts with a single prediction”</p>
+            </div>
+        </div>
+    </header>
+    
+    
+    <!--Image Section-->
+    <div id="background-container">
+        <script src="Opretions.js"></script>
+    </div>
+
+    
+<!-- User Input Form -->
+    <div class="container form-container">
+        <div class="form-box">
+            <h2>Make Prediction</h2>
+            <form>
+                <!-- Gender -->
+                <div class="form-group">
+                    <label for="gender">Gender:</label>
+                    <select id="gender" name="gender" class="form-control custom-select">
+                        <option value="">Select</option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+
+                <!-- Age -->
+                <div class="form-group">
+                    <label for="age">Age:</label>
+                    <input type="number" id="age" name="age" class="form-control custom-input" placeholder="Enter your age">
+                </div>
+
+                <!-- Glucose -->
+                <div class="form-group">
+                    <label for="glucose">Glucose:</label>
+                    <input type="number" id="glucose" class="form-control custom-input" placeholder="Enter your Glucose Count">
+                </div>
+
+                <!-- Blood Pressure -->
+                <div class="form-group">
+                    <label for="bloodPressure">Blood Pressure:</label>
+                    <input type="number" id="bloodPressure" class="form-control custom-input" placeholder="Enter Blood Pressure Data">
+                </div>
+
+                <!-- Insulin -->
+                <div class="form-group">
+                    <label for="insulin">Insulin:</label>
+                    <input type="number" id="insulin" class="form-control custom-input" placeholder="Enter Insulin Count">
+                </div>
+
+                <!-- BMI -->
+                <div class="form-group">
+                    <label for="bmi">BMI:</label>
+                    <input type="number" id="bmi" class="form-control custom-input" placeholder="Enter BMI Count">
+                </div>
+
+                <!-- Diabetes Pedigree -->
+                <div class="form-group">
+                    <label for="diabetesPedigree">Dia. Pedigree:</label>
+                    <input type="number" id="diabetesPedigree" class="form-control custom-input" placeholder="Enter Diabetes Pedigree Count">
+                </div>
+
+                <!-- Buttons -->
+                <div class="form-group">
+                    <button type="button" id="predictButton" class="btn custom-button">Predict</button>
+                    <button type="reset" id="resetButton" class="btn custom-button">Reset</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    
+<footer class= " footer-transparent text-white text-center position-relative">
+    <div class="container-fluid">
+        <p class="lead"><b>Copyright &copy; 2024 Diabetes Prediction</b></p>
+    </div>
+</footer>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
