@@ -2,14 +2,14 @@
 
 Follow the steps below to run  the Backend (Flask server) for the VitaPulseDX application.
 
-## Step 1: Open Two Terminals in VS Code
+# Step 1: Open Two Terminals in VS Code
 
 You need to open two separate terminals in VS Code:
 
 1. Backend Terminal* – for running the Flask server.
 2. Frontend Terminal – for serving the static files (HTML, CSS, JS).
 
-## **Step 2: Run the Backend (Flask Server)**
+# Step 2: Run the Backend (Flask Server)
 
 1. In the **Backend Terminal**, navigate to the project folder where `app.py` is located.
 
@@ -38,7 +38,7 @@ You need to open two separate terminals in VS Code:
    ```
    This confirms that the Flask app is running and ready to handle requests.
 
-## Step 3: Run the Frontend (Static Server)
+# Step 3: Run the Frontend (Static Server)
 
 1. In the **Frontend Terminal**, navigate to the folder containing your static files (e.g., `diabets.html`, `style.css`, `script.js`).
 
@@ -66,8 +66,7 @@ You need to open two separate terminals in VS Code:
 
    This confirms that the frontend is being served at `http://localhost:8001`.
 
-
-## Step 4: Open the Application in Your Browser
+# Step 4: Open the Application in Your Browser
 
 1. Open Google Chrome or your preferred web browser.
 
@@ -78,8 +77,8 @@ You need to open two separate terminals in VS Code:
    ```
 3. Press **Enter** to load the web application.
 
-## Step 5: Check the Network Tab in Developer Tools
 
+# Step 5: Check the Network Tab in Developer Tools
 To ensure that all files are loading correctly:
 
 1. Open Developer Tools** in your browser by pressing F12.
@@ -90,8 +89,7 @@ To ensure that all files are loading correctly:
 
 
 
-### Summary: 
-
+# Summary: 
 1. Backend: Run `python app.py` in the Backend Terminal to start the Flask server.
 2. Frontend: Run `python -m http.server 8001` in the Frontend Terminal to serve static files.
 3. Open http://localhost:8001/diabets.html in your browser to use the application.
