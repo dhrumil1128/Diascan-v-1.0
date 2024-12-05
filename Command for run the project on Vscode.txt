@@ -18,7 +18,6 @@ You need to open two separate terminals in VS Code:
    ```bash
    python app.py
    ```
-
    Once the server is running, you should see the following status messages in the terminal:
 
    ```
@@ -37,9 +36,7 @@ You need to open two separate terminals in VS Code:
    INFO:root:Prediction successful
    INFO:werkzeug:127.0.0.1 - - [16/Jul/2024 01:00:11] "POST /predict HTTP/1.1" 200 -
    ```
-
    This confirms that the Flask app is running and ready to handle requests.
-
 
 ## Step 3: Run the Frontend (Static Server)
 
@@ -72,17 +69,14 @@ You need to open two separate terminals in VS Code:
 
 ## Step 4: Open the Application in Your Browser
 
-1. Open **Google Chrome** or your preferred web browser.
+1. Open Google Chrome or your preferred web browser.
 
 2. Type the following address in the address bar:
 
    ```
    http://localhost:8001/diabets.html
    ```
-
 3. Press **Enter** to load the web application.
-
----
 
 ## Step 5: Check the Network Tab in Developer Tools
 
