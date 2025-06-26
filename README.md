@@ -1,17 +1,9 @@
-Here’s the complete **README.md** with the detailed **Project Overview** integrated into it:
-
----
-
-# **VitaPulseDX-v1.0**
+# **Diascan-v-1.0**
 
 ## **Project Overview**
 
-**VitaPulseDX-v1.0** is an innovative **web application** designed to help individuals assess their risk for **diabetes** based on key health parameters. The application enables users to easily detect if they have diabetes or are at risk of developing it by entering specific health-related factors into the system. 
+**Diascan-v-1.0** is an innovative **web application** designed to help individuals assess their risk for **diabetes** based on key health parameters. The application enables users to easily detect if they have diabetes or are at risk of developing it by entering specific health-related factors into the system. 
 
-The name **VitaPulseDX** combines several important aspects of the project:
-- **Vita**: From the Latin word for “life,” emphasizing the project's goal of promoting healthier living and improving life quality by providing early insights into diabetes risks.
-- **Pulse**: Refers to the vital health indicators, such as blood sugar levels and other factors, that are tracked and analyzed in the application.
-- **DX**: Short for “Diagnosis,” highlighting the system's ability to diagnose potential diabetes or prediabetes through intelligent predictions.
 
 ### How It Works:
 
@@ -56,18 +48,18 @@ To clone this project to your local machine, follow the steps below:
 ### **Steps to Clone:**
 
 1. Copy the Repository URL:  
-   You can find the repository URL at the top of the GitHub page (e.g., `https://github.com/your-username/VitaPulseDX-v1.0`).
+   You can find the repository URL at the top of the GitHub page (e.g., `https://github.com/your-username/Diascan-v-1.0`).
 
 2. Clone the Repository:  
    Open your terminal (or Git Bash) and run the following command:
    ```bash
-   git clone https://github.com/your-username/VitaPulseDX-v1.0.git
+   git clone https://github.com/your-username/Diascan-v-1.0.git
    ```
 
 3. Navigate to the Project Folder:  
    Once the cloning process is complete, navigate to the project directory:
    ```bash
-   cd VitaPulseDX-v1.0
+   cd Diascan-v-1.0
    ```
 
 4. Install Dependencies:  
